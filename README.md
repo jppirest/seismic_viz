@@ -41,7 +41,7 @@ On the data_cut variable, you are able to cut the seismic data, in order to load
 
 Then, voilà, if no errors associated to mayavi, traits and tvtk appear, you should get a mayavi scene plot. On the mayavi layout, it's possible to change the colormap, the color range and many other graph configurations.
 
-
+![Example of the plot window](/seismic_viz.png "Window plotting the seismic data")
 
 
 ## To-Do ##
