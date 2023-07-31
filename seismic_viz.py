@@ -20,7 +20,7 @@ def loadnpy(file_path:str) -> np.array:
 
 
 s = time.time() 
-seismic = loadnpy('seismic.npy')
+seismic = np.load('/Users/jppirest/Documents/train_sismic_label_full.npz')['arr_0']
 # labels = segytonpy('TrainingData_Labels.segy')
 s = time.time() - s
 
@@ -53,7 +53,7 @@ from mayavi.core.ui.api import SceneEditor, MayaviScene, \
 ################################################################################
 # Create some data
 
-data_cut = seismic[:,:,:200] #### Cutting the seismic on z-axis in order to lower the loading/rendering time
+data_cut = seismic[:200,:200,:200] #### Cutting the seismic on z-axis in order to lower the loading/rendering time
 # labels_cut = labels[:,:,0:10]
 cut_shapes = data_cut.shape
 
