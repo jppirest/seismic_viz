@@ -1,7 +1,7 @@
-mayavi==4.7.2
+mayavi==4.8.1
 numpy==1.23.5
 segyio==1.5.1
-traits==6.2.0
-traitsui==7.2.1
+traits==6.4.1
+traitsui==7.4.3
 vtk==9.2.6
-python==3.8.16
+python==3.9.12
